@@ -10,15 +10,15 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/workspace/exercise-instagram-data-modeling/.venv"
+setenv VIRTUAL_ENV '/workspace/exercise-instagram-data-modeling/.venv'
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/bin:$PATH:q"
 
 
 
-if ("(exercise-instagram-data-modeling) " != "") then
-    set env_name = "(exercise-instagram-data-modeling) "
+if ('(exercise-instagram-data-modeling) ' != "") then
+    set env_name = '(exercise-instagram-data-modeling) '
 else
     set env_name = '('"$VIRTUAL_ENV:t:q"') '
 endif

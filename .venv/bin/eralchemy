@@ -1,4 +1,4 @@
-#!/workspace/exercise-instagram-data-modeling/.venv/bin/python3.6
+#!/workspace/exercise-instagram-data-modeling/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
